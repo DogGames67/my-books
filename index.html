@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Books</title>
+    <style>
+        body { font-family: Arial; background: #f4f4f4; margin: 0; padding: 0; }
+        header { background: #222; color: #fff; padding: 20px; text-align: center; }
+        .books { display: flex; flex-wrap: wrap; justify-content: center; padding: 20px; }
+        .book { background: #fff; margin: 15px; padding: 20px; border-radius: 10px; width: 250px; box-shadow: 0 2px 5px rgba(0,0,0,0.2); text-align: center; }
+        .book a { display: inline-block; margin-top: 10px; padding: 10px 15px; background: #222; color: #fff; text-decoration: none; border-radius: 5px; }
+        .book a:hover { background: #555; }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>My Books</h1>
+        <p>Check out my latest works!</p>
+    </header>
+
+    <div class="books">
+        <div class="book">
+            <h2>Book 1 Title</h2>
+            <p>Short description of your first book.</p>
+            <a href="books/book1.pdf" target="_blank">Read / Download</a>
+        </div>
+        <div class="book">
+            <h2>Book 2 Title</h2>
+            <p>Short description of your second book.</p>
+            <a href="books/book2.pdf" target="_blank">Read / Download</a>
+        </div>
+        <!-- Add more books by copying the <div class="book"> block -->
+    </div>
+</body>
+</html>
